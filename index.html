@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi Kilomy</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;line-height:1.6;color:#0b1b2e;background:#fff}h1,h2{color:#011D3C}h2{margin-top:1.6em}a{color:#00796B}code{background:#f1f4f8;padding:0 4px;border-radius:4px}</style>
+</head><body>
+<h1>Kebijakan Privasi Kilomy</h1>
+<p><em>Berlaku sejak: 24 November 2026</em></p>
+<p><em>Pengembang: Kilomy</em></p>
+<p><em>Kontak: <a href="mailto:kilomy.app@gmail.com">kilomy.app@gmail.com</a></em></p>
+<p>Kebijakan privasi ini menjelaskan cara aplikasi <strong>Kilomy</strong> versi 1.0 (Android, <code>com.kilomy.app</code>) menangani data Anda. Isinya disusun dari perilaku aplikasi yang sebenarnya. Kilomy 1.0 tidak memuat SDK iklan, analitik, pelaporan crash, maupun layanan cloud.</p>
+<h2>1. Data yang disimpan aplikasi</h2>
+<p>Semua data yang Anda masukkan disimpan <strong>hanya di perangkat Anda</strong>, di penyimpanan privat aplikasi:</p>
+<ul>
+<li><strong>Akun di perangkat:</strong> alamat email yang Anda ketik dan kata sandi dalam bentuk hash (PBKDF2-HMAC-SHA256 dengan salt). Kata sandi aslinya tidak disimpan. Email hanya dipakai untuk memisahkan akun di perangkat yang sama dan tidak pernah dikirim ke mana pun oleh aplikasi.</li>
+<li><strong>Data kendaraan dan perawatan:</strong> jenis dan nama kendaraan (merek, model, tahun bersifat opsional), catatan odometer, riwayat servis (tanggal, odometer, pekerjaan, biaya, nama bengkel, catatan), rencana perawatan, serta pengaturan (bahasa, wilayah, satuan, mata uang, zona waktu, tema).</li>
+<li><strong>Foto nota (opsional):</strong> hanya jika Anda melampirkannya. Foto disalin ke penyimpanan privat aplikasi.</li>
+</ul>
+<p>Kilomy <strong>tidak meminta</strong> nomor polisi, nomor rangka (VIN), dokumen kendaraan, lokasi, maupun kontak. Izin lokasi dan kontak diblokir di konfigurasi aplikasi.</p>
+<h2>2. Yang tidak dilakukan aplikasi</h2>
+<ul>
+<li>Tidak memiliki server dan tidak mengunggah data Anda. Belum ada pencadangan atau sinkronisasi cloud.</li>
+<li>Tidak menampilkan iklan, tidak memakai analitik atau pelacakan, tidak menjual data, dan tidak membagikan data ke pihak lain.</li>
+<li>Tidak memakai ID iklan (Advertising ID).</li>
+</ul>
+<h2>3. Izin yang digunakan</h2>
+<ul>
+<li><strong>Notifikasi:</strong> hanya untuk pengingat servis berdasarkan tanggal yang Anda aktifkan (7 hari sebelum, 1 hari sebelum, dan pada hari jatuh tempo, pukul 09.00). Pengingat dijadwalkan secara lokal di perangkat.</li>
+<li><strong>Kamera dan foto:</strong> hanya saat Anda memilih untuk melampirkan foto nota servis. Pada Android 12 ke bawah, akses penyimpanan dipakai untuk tujuan yang sama (memilih foto dari galeri).</li>
+<li><strong>Berjalan saat perangkat dinyalakan, alarm, dan getar:</strong> agar pengingat yang sudah dijadwalkan dapat dipulihkan setelah HP dinyalakan ulang dan ditampilkan tepat waktu.</li>
+<li><strong>Internet dan status jaringan:</strong> disertakan secara bawaan oleh kerangka aplikasi. Kilomy tidak memakainya untuk mengirim data Anda.</li>
+</ul>
+<h2>4. Data yang keluar dari aplikasi (hanya atas tindakan Anda)</h2>
+<ul>
+<li><strong>Ekspor (JSON atau CSV):</strong> aplikasi membuat file berisi email akun dan seluruh catatan Anda, lalu membuka menu berbagi Android. Anda sendiri yang memilih tujuannya.</li>
+<li><strong>Tambah ke Google Calendar:</strong> aplikasi membuka tautan Google Calendar di peramban atau aplikasi Anda dengan judul dan tanggal acara yang sudah terisi. Langkah selanjutnya diatur oleh kebijakan privasi Google.</li>
+<li><strong>File kalender (.ics):</strong> dibagikan melalui menu berbagi, sama seperti ekspor.</li>
+</ul>
+<h2>5. Pencadangan Android</h2>
+<p>Jika Anda mengaktifkan pencadangan Android ke akun Google Anda, sistem Android dapat menyertakan data aplikasi Kilomy dalam cadangan tersebut dan memulihkannya di HP baru. Cadangan ini milik akun Google Anda dan dikelola oleh Google; pengembang Kilomy tidak dapat mengaksesnya.</p>
+<h2>6. Penyimpanan dan penghapusan</h2>
+<ul>
+<li>Data tetap berada di perangkat sampai Anda menghapusnya.</li>
+<li>Di aplikasi: <strong>Pengaturan → Hapus semuanya</strong> menghapus akun, seluruh catatan, foto nota, dan pengingat terjadwal di perangkat ini secara permanen.</li>
+<li>Menghapus instalasi aplikasi juga menghapus penyimpanan privatnya.</li>
+<li>Karena pengembang tidak menyimpan data Anda, tidak ada data yang perlu dimintakan penghapusannya kepada pengembang.</li>
+</ul>
+<h2>7. Keamanan</h2>
+<p>Data disimpan di penyimpanan privat aplikasi yang tidak dapat dibaca aplikasi lain pada perangkat yang tidak di-root. Siapa pun yang dapat membuka kunci HP Anda dan mengetahui kata sandi akun Kilomy dapat melihat data akun tersebut, jadi lindungi HP Anda dengan kunci layar.</p>
+<h2>8. Anak-anak</h2>
+<p>Kilomy adalah alat bantu bagi pemilik kendaraan dan tidak ditujukan untuk anak-anak.</p>
+<h2>9. Perubahan kebijakan</h2>
+<p>Jika versi mendatang menambahkan fitur yang mengirim data keluar dari perangkat (misalnya pencadangan cloud), kebijakan ini dan deklarasi Keamanan Data di Google Play akan diperbarui sebelum versi tersebut dirilis.</p>
+<h2>10. Kontak</h2>
+<p>Pertanyaan tentang kebijakan ini: <a href="mailto:kilomy.app@gmail.com">kilomy.app@gmail.com</a></p>
+</body></html>
